@@ -119,16 +119,16 @@ ul{  padding-left: 0;
     line-height: 1.19;
     text-decoration: none;
 }
+.link-list .header-items .current{
+    color: var(--accent-color);
+}
 
 .link-list .link-items:hover,
 .link-list .link-items:focus{
    color: var(--accent-color);
-   
 }
 
-.current{
-    background: var(--accent-color);
-}
+
 
 .link-list .link-items{
     font-weight: 500;
