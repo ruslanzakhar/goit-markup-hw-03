@@ -15,7 +15,7 @@
   <body>
 <!--HEADER-->
 <header class="header">
-  <div class="container">
+  <div class="header container">
     <nav class="header-nav">
       <a class="logo-header" href="./index.html">
         <span class="logo">Web</span>Studio
@@ -25,37 +25,37 @@
         <li class="header-items"><a class="link-items  list" href="./portfolio.html">Портфоліо</a></li>
         <li class="header-items"><a class="link-items list" href="contacts">Контакти</a></li>
     </ul>
-    
+    </nav>
     <ul class="contacts">
         <li class="header-contacts"><a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="header-contacts"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
-  </nav>
+  
  </div>
 </header>
 
    
 <!--HERO--> 
 <main>
-    <section class="hero">
+    <section class="section hero">
       <div class="container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button class="hero-btn" type="button">Замовити послугу</button>
      </div>
 </section>
 
- <section class="edge">
+ <section class="section edge">
   <div class="container">
       <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="edge-list">
-          <li><h3 class="edge-title  list">УВАГА ДО ДЕТАЛЕЙ</h3><p class="meaning">Ідейні міркування, і навіть початок повсякденної роботи з формування <br>позиції.</p></li>
-          <li><h3 class="edge-title  list">ПУНКТУАЛЬНІСТЬ</h3><p class="meaning">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-          <li><h3 class="edge-title  list">ПЛАНУВАННЯ</h3><p class="meaning">Так само консультація з широким активом значною мірою зумовлює.</p></li>
-          <li><h3 class="edge-title  list">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="meaning">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+          <li class="edge-elem"><h3 class="edge-title  list">УВАГА ДО ДЕТАЛЕЙ</h3><p class="meaning">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
+          <li class="edge-elem"><h3 class="edge-title  list">ПУНКТУАЛЬНІСТЬ</h3><p class="meaning">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+          <li class="edge-elem"><h3 class="edge-title  list">ПЛАНУВАННЯ</h3><p class="meaning">Так само консультація з широким активом значною мірою зумовлює.</p></li>
+          <li class="edge-elem"><h3 class="edge-title  list">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="meaning">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
         </ul>
   </div>
 </section>
-<section class="affairs">
+<section class="section affairs">
   <div class="container">
       <h2 class="section-title">Чим ми займаємося</h2>
       <ul  class="affairs-list">
@@ -65,33 +65,35 @@
       </ul>
     </div>
 </section>
-<section class="team">
+<section class="section team">
   <div class="container">
   <h2 class="section-title">Наша команда</h2>
        <ul class="team-list">
-            <li>
-               <div class="conteiner-team">
+            <li class="conteiner-team">
                   <img class="photo-items list" src="./images/productdesigner.jpg" alt="Ігор Дем'яненко"  width="270">
-                <h3 class="team-name">Ігор Дем'яненко</h3> <p class="team-position" lang="en">Product Designer</p>  
+                <div class="name">
+                  <h3 class="team-name">Ігор Дем'яненко</h3> <p class="team-position" lang="en">Product Designer</p>  
               </div>  
          </li>
-          <li> 
-              <div class="conteiner-team">
+          <li class="conteiner-team"> 
                 <img class="photo-items list" src="./images/frontenddeveloper.jpg" alt="Ольга Рєпіна" width="270">
-                <h3 class="team-name">Ольга Рєпіна</h3> <p class="team-position" lang="en">Frontend Developer</p> 
+                <div class="name">
+                  <h3 class="team-name">Ольга Рєпіна</h3> <p class="team-position" lang="en">Frontend Developer</p> 
               </div>
           </li>
-           <li> 
-              <div class="conteiner-team">  
+           <li class="conteiner-team"> 
+                
                   <img class="photo-items list" src="./images/marketing.jpg" alt="Микола Тарасов" width="270">
+                 <div class="name"> 
                   <h3 class="team-name">Микола Тарасов</h3> <p class="team-position" lang="en">Marketing</p>   
               </div>
            </li>
-           <li>
-              <div class="conteiner-team">
+           <li class="conteiner-team">
+              
                   <img class="photo-items list" src="./images/uidesigner.jpg" alt="Михайло Єрмаков" width="270">
-                  <h3 class="team-name">Михайло Єрмаков</h3> <p class="team-position" lang="en">UI Designer</p>
-             </div>
+               <div class="name">
+                    <h3 class="team-name">Михайло Єрмаков</h3> <p class="team-position" lang="en">UI Designer</p>
+               </div>
            </li>
        </ul>
       </div>
@@ -100,13 +102,14 @@
 </main>
        <footer class="footer">
         <div class="container">
-        <a class="logo-link" href="./index.html">
+       <div class="footer-marg"> <a class="logo-link" href="./index.html">
        <span class="logo">Web</span>Studio</a>
+      </div>
       <address>     
         <ul class="footer-list list">
-            <li><a class="footer-links-map link" href="https://goo.gl/maps/fhk3UUp2k1UyL6vdA" target="_blank" rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a class="footer-links-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="footer-links-tel link" href="tel:+380961111111">+380 96 111 11 11</a></li>
+            <li class="element"><a class="footer-links-map link" href="https://goo.gl/maps/fhk3UUp2k1UyL6vdA" target="_blank" rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="element"><a class="footer-links-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="elem-tel" ><a class="footer-links-tel link" href="tel:+380961111111">+380 96 111 11 11</a></li>
         </ul>
     </address>
   </div>

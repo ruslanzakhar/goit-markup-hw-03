@@ -81,13 +81,16 @@ ul{  padding-left: 0;
 .header-nav{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
-
+.header .container{
+    display: flex;
+}
 .link-list{
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-right: 354px;
+    
 }
 
 .header-items{
@@ -102,23 +105,18 @@ ul{  padding-left: 0;
 }
 
 .logo-header {
-    margin-right: auto;
+    margin-right: 93px;
     font-family: 'Raleway' , sans-serif;
     color:var(--accent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--second-color);
 }
 
-.logo-header{
-    font-family: 'Raleway' , sans-serif;
-    color: var(--second-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-}
+
+
 .link-list .header-items .current{
     color: var(--accent-color);
 }
@@ -165,7 +163,7 @@ ul{  padding-left: 0;
 /*-----------HERO---------*/
 
 .hero{
-    padding: 200px 0 280px;
+    padding: 200px 0 200px;
     text-align: center;
     background-color: var(--second-color);
 }
@@ -184,6 +182,7 @@ ul{  padding-left: 0;
 }
 
 .hero-btn{
+    height: 50px;
     padding: 10px 24px;
     border: 0;
     display: inline-block;
@@ -200,19 +199,26 @@ ul{  padding-left: 0;
     background-color:var(--background-blue)
 }
 
+
 .edge-title{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color:var(--paragraph-color);
-    padding-bottom: 10px;
+    margin-bottom: 10px;
  }   
+
+ .edge-elem{
+    width: 270px;
+    height: 98px;
+ }
 
  .edge-list{
     display: flex;
-    align-items: center;
-    margin: 94px 0;
-    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 30px;
  }
 
 .meaning{
@@ -224,51 +230,50 @@ ul{  padding-left: 0;
 }
 
 .section-title{
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     color: var(--paragraph-color);
 }
+ 
+ .section {
+    padding: 94px 0 94px 0 ;
+ }
+ .affairs{
+    padding-top: 0;
+} 
 
 .affairs-list{
     display: flex;
     gap: 30px;
-    padding: 50px 0 94px;
+    
 }
 .photo-items{
     border-top-left-radius:2% ;
     border-top-right-radius:2%;
 }
 .conteiner-team{
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: var(--main-color);
     filter: drop-shadow( 0px 1px 1px gray);
-    border-radius: 2%;
+    border-radius: 4px;
 }
-
-.team-name{
-    padding: 30px 0 10px;
+.name{
+    padding: 30px 0 30px;
 }
-
 .team{
     background-color: var(--gray-background);
 }
 
-.team .section-title{
-    padding: 94px 0 50px;
-}
 
 .team-list{
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
     
 }
 
 .team-name{
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -296,7 +301,7 @@ ul{  padding-left: 0;
 }
 
 .hero-btns{
-    padding: 94px 0 34px;
+    margin-bottom: 50px;
     display: flex;
     gap: 8px;
     align-items: center;
@@ -323,11 +328,12 @@ ul{  padding-left: 0;
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 94px;
-
+    gap:22px;
 }
 
+.projects-items{
+    border: 2px solid #EEEEEE;
+}
 .project-title{
     font-size: 18px;
     line-height: 2;
@@ -340,6 +346,11 @@ ul{  padding-left: 0;
     color: var(--primary-color);
 }
 
+.name-list{
+padding: 20px 24px 20px ;
+
+}
+
 /*-------FOOTER------*/
 
 .footer{
@@ -348,7 +359,7 @@ ul{  padding-left: 0;
 
 .logo-link{
     display: block;
-    padding: 60px 0 28px;
+    margin-bottom: 20px;
     font-family: 'Raleway' ,sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -358,12 +369,17 @@ ul{  padding-left: 0;
     color:var(--main-color);
 }
 
+.footer-marg{
+    padding-block : 60px 0;
+    max-width: 145px;
+}
+
 .footer-list:not(:nth-child(2)){
     margin:0;
 }
 
-.footer-list {
-    padding-bottom: 60px;
+.element{
+    margin-bottom: 9px;
 }
 
 .footer-links-map{
@@ -395,6 +411,10 @@ ul{  padding-left: 0;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.elem-tel{
+    padding-block: 0px 60px;
 }
 
 .logo{
