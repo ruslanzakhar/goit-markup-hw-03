@@ -324,7 +324,7 @@ ul{  padding-left: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-margin-bottom: 94px;
+    margin-bottom: 94px;
 
 }
 
@@ -349,8 +349,6 @@ margin-bottom: 94px;
 .logo-link{
     display: block;
     padding: 60px 0 28px;
-    margin-right: auto;
-
     font-family: 'Raleway' ,sans-serif;
     font-style: normal;
     font-weight: 700;
