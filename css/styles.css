@@ -162,6 +162,10 @@ ul{  padding-left: 0;
 
 /*-----------HERO---------*/
 
+.section {
+    padding: 94px 0 94px 0 ;
+ }
+
 .hero{
     padding: 200px 0 200px;
     text-align: center;
@@ -237,9 +241,7 @@ ul{  padding-left: 0;
     color: var(--paragraph-color);
 }
  
- .section {
-    padding: 94px 0 94px 0 ;
- }
+ 
  .affairs{
     padding-top: 0;
 } 
@@ -328,16 +330,19 @@ ul{  padding-left: 0;
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    gap:22px;
+    gap:30px;
 }
 
-.projects-items{
-    border: 2px solid #EEEEEE;
+.projects-items {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #EEEEEE;
 }
+
 .project-title{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .project-text{
@@ -355,6 +360,7 @@ padding: 20px 24px 20px ;
 
 .footer{
     background-color:var(--second-color);
+    padding: 60px 0 60px;
 }
 
 .logo-link{
@@ -369,10 +375,7 @@ padding: 20px 24px 20px ;
     color:var(--main-color);
 }
 
-.footer-marg{
-    padding-block : 60px 0;
-    max-width: 145px;
-}
+
 
 .footer-list:not(:nth-child(2)){
     margin:0;
@@ -413,12 +416,8 @@ padding: 20px 24px 20px ;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.elem-tel{
-    padding-block: 0px 60px;
-}
-
 .logo{
-    
+
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
